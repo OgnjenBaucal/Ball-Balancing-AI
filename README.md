@@ -12,7 +12,7 @@
   The action space is discrete and it consists of three options: nothing, increase the incline angle of the ramp and decrease it.
 
 ## Solution
-  ### Proximal Policiy Optimization
+  ### Proximal Policy Optimization
   Proximal Policy Optimization (PPO) is a reinforcement learning algorithm that optimizes a policy. It improves the stability of
   training using a clipped objective function, which prevents large updates to the policy. It works by collecting data from an episode
   with the current policy, estimating advantages and updating the policy with a loss function. The advantages are estimated by taking
